@@ -1,0 +1,2256 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 10:58:17 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Library/Ruby/Gems/2.0.0/gems/railties-4.1.4/lib/rails/templates/rails/welcome/index.html.erb (0.9ms)
+Completed 200 OK in 20ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track" for 127.0.0.1 at 2014-08-15 11:00:38 +0200
+
+ActionController::RoutingError (No route matches [GET] "/track"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (11.4ms)
+
+
+Started GET "/track" for 127.0.0.1 at 2014-08-15 11:02:37 +0200
+
+ArgumentError (Missing :action key on routes definition, please check your routes.):
+  config/routes.rb:11:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.9ms)
+
+
+Started GET "/track" for 127.0.0.1 at 2014-08-15 11:05:14 +0200
+
+ActionController::RoutingError (No route matches [GET] "/track"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (10.1ms)
+
+
+Started GET "/track/play" for 127.0.0.1 at 2014-08-15 11:05:17 +0200
+Processing by TrackController#play as HTML
+  Rendered track/play.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 624ms (Views: 607.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:05:18 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:05:18 +0200
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:05:18 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:05:18 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:05:18 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:05:18 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:05:18 +0200
+
+
+Started GET "/track/play" for 127.0.0.1 at 2014-08-15 11:07:44 +0200
+Processing by TrackController#play as HTML
+Param controller: track
+Param action: play
+  Rendered track/play.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:07:44 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:07:44 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:07:44 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:07:44 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:07:44 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:07:44 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:07:44 +0200
+
+
+Started GET "/track/play" for 127.0.0.1 at 2014-08-15 11:07:45 +0200
+Processing by TrackController#play as HTML
+Param controller: track
+Param action: play
+  Rendered track/play.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:07:45 +0200
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:07:45 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:07:45 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:07:45 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:07:45 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:07:45 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:07:45 +0200
+
+
+Started GET "/track/play?h=hasdasd" for 127.0.0.1 at 2014-08-15 11:07:49 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"h"=>"hasdasd"}
+Param h: hasdasd
+Param controller: track
+Param action: play
+  Rendered track/play.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:07:49 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:07:49 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:07:49 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:07:49 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:07:49 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:07:49 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:07:49 +0200
+
+
+Started GET "/track/play/asdasdasd" for 127.0.0.1 at 2014-08-15 11:07:55 +0200
+
+ActionController::RoutingError (No route matches [GET] "/track/play/asdasdasd"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (9.6ms)
+
+
+Started GET "/track/play/asdasdasd" for 127.0.0.1 at 2014-08-15 11:08:44 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"asdasdasd"}
+Param controller: track
+Param action: play
+Param id: asdasdasd
+  Rendered track/play.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:08:44 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:08:44 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:08:44 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:08:44 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:08:44 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:08:44 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:08:44 +0200
+
+
+Started GET "/track/play/asdasdasdasd" for 127.0.0.1 at 2014-08-15 11:08:48 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"asdasdasdasd"}
+Param controller: track
+Param action: play
+Param id: asdasdasdasd
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:08:49 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:08:49 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:08:49 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:08:49 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:08:49 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:08:49 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:08:49 +0200
+
+
+Started GET "/track/play/foofighters" for 127.0.0.1 at 2014-08-15 11:09:09 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"foofighters"}
+Param controller: track
+Param action: play
+Param id: foofighters
+  Rendered track/play.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:09:09 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:09:09 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:09:09 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:09:09 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:09:09 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:09:09 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:09:09 +0200
+
+
+Started GET "/track/play/foofighters" for 127.0.0.1 at 2014-08-15 11:11:58 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"foofighters"}
+Param controller: track
+Param action: play
+Param id: foofighters
+  Rendered track/play.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:11:58 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:11:58 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:11:58 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:11:58 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:11:58 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:11:58 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:11:58 +0200
+
+
+Started GET "/track/play/foofighters" for 127.0.0.1 at 2014-08-15 11:12:01 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"foofighters"}
+Param controller: track
+Param action: play
+Param id: foofighters
+  Rendered track/play.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:12:01 +0200
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:12:01 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:12:01 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:12:01 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:12:01 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:12:01 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:12:01 +0200
+
+
+Started GET "/track/play/foofighters" for 127.0.0.1 at 2014-08-15 11:12:12 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"foofighters"}
+Param controller: track
+Param action: play
+Param id: foofighters
+  Rendered track/play.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:12:12 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:12:12 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:12:12 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:12:12 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:12:12 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:12:12 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:12:12 +0200
+
+
+Started GET "/track/play/foofighters" for 127.0.0.1 at 2014-08-15 11:12:14 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"foofighters"}
+Param controller: track
+Param action: play
+Param id: foofighters
+  Rendered track/play.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:12:14 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:12:14 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:12:14 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:12:14 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:12:14 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:12:14 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:12:14 +0200
+
+
+Started GET "/track/play/foofighters" for 127.0.0.1 at 2014-08-15 11:13:37 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"foofighters"}
+Param controller: track
+Param action: play
+Param id: foofighters
+  Rendered track/play.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:13:37 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:13:37 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:13:37 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:13:37 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:13:37 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:13:37 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:13:37 +0200
+
+
+Started GET "/track/play/foofighters" for 127.0.0.1 at 2014-08-15 11:13:58 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"foofighters"}
+Param controller: track
+Param action: play
+Param id: foofighters
+  Rendered track/play.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined local variable or method `id' for #<#<Class:0x007fa01633b5b8>:0x007fa016389f10>):
+    1: <p>Start playing track: <% params[id] %></p>
+    2: 
+    3: <%= params.inspect %>
+  app/views/track/play.html.erb:1:in `_app_views_track_play_html_erb___1427872929454075958_70162772149440'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.0ms)
+
+
+Started GET "/track/play/foofighters" for 127.0.0.1 at 2014-08-15 11:14:02 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"foofighters"}
+Param controller: track
+Param action: play
+Param id: foofighters
+  Rendered track/play.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:14:02 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:14:02 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:14:02 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:14:02 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:14:02 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:14:02 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:14:02 +0200
+
+
+Started GET "/track/play/foofighters" for 127.0.0.1 at 2014-08-15 11:14:27 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"foofighters"}
+Param controller: track
+Param action: play
+Param id: foofighters
+  Rendered track/play.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:14:27 +0200
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:14:27 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:14:27 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:14:27 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:14:27 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:14:27 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:14:27 +0200
+
+
+Started GET "/track/play/foofighters" for 127.0.0.1 at 2014-08-15 11:16:03 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"foofighters"}
+
+
+Started GET "/track/play/foofighters" for 127.0.0.1 at 2014-08-15 11:16:22 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"foofighters"}
+
+
+Started GET "/track/play/foofighters" for 127.0.0.1 at 2014-08-15 11:16:51 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"foofighters"}
+  Rendered track/play.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 785ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:16:51 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:16:51 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:16:51 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:16:51 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:16:51 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:16:51 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:16:52 +0200
+
+
+Started GET "/track/play/foofighters" for 127.0.0.1 at 2014-08-15 11:16:58 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"foofighters"}
+  Rendered track/play.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 725ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:16:59 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:16:59 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:16:59 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:16:59 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:16:59 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:16:59 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:16:59 +0200
+
+
+Started GET "/track/play/foofighters" for 127.0.0.1 at 2014-08-15 11:17:30 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"foofighters"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1100ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:17:32 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:32 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:32 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:17:32 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:32 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:32 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:32 +0200
+
+
+Started GET "/track/play/bleeep" for 127.0.0.1 at 2014-08-15 11:17:36 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"bleeep"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 805ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:17:36 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:36 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:17:36 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:36 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:36 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:36 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:36 +0200
+
+
+Started GET "/track/play/blabla" for 127.0.0.1 at 2014-08-15 11:17:41 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"blabla"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 832ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:17:42 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:42 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:42 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:42 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:17:42 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:42 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:42 +0200
+
+
+Started GET "/track/play/pooop" for 127.0.0.1 at 2014-08-15 11:17:46 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"pooop"}
+  Rendered track/play.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 620ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:17:46 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:46 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:46 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:46 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:46 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:17:46 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:17:46 +0200
+
+
+Started GET "/track/play/pooop" for 127.0.0.1 at 2014-08-15 11:18:04 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"pooop"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 607ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:18:04 +0200
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:18:04 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:04 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:04 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:04 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:04 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:04 +0200
+
+
+Started GET "/track/play/pooop" for 127.0.0.1 at 2014-08-15 11:18:06 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"pooop"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 607ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:18:06 +0200
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:18:06 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:06 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:06 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:06 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:06 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:06 +0200
+
+
+Started GET "/track/play/poop" for 127.0.0.1 at 2014-08-15 11:18:08 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"poop"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 608ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:18:09 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:18:09 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:09 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:09 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:09 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:09 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:09 +0200
+
+
+Started GET "/track/play/poop" for 127.0.0.1 at 2014-08-15 11:18:11 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"poop"}
+  Rendered track/play.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 608ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:12 +0200
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:18:12 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:18:12 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:12 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:12 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:12 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:12 +0200
+
+
+Started GET "/track/play/poop" for 127.0.0.1 at 2014-08-15 11:18:15 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"poop"}
+  Rendered track/play.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 608ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:18:16 +0200
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:18:16 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:16 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:16 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:16 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:16 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:16 +0200
+
+
+Started GET "/track/play/poop" for 127.0.0.1 at 2014-08-15 11:18:19 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"poop"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 607ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:18:20 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:20 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:20 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:20 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:20 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:18:20 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:20 +0200
+
+
+Started GET "/track/play/blablabla" for 127.0.0.1 at 2014-08-15 11:18:30 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"blablabla"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1011ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:18:31 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:18:31 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:31 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:31 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:31 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:31 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:18:31 +0200
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 127.0.0.1 at 2014-08-15 11:28:26 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 62ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:28:26 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:28:26 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:28:26 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:28:26 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:28:26 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:28:26 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:28:26 +0200
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 127.0.0.1 at 2014-08-15 11:28:53 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:28:53 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:28:53 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:28:53 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:28:53 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:28:53 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:28:53 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:28:53 +0200
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 127.0.0.1 at 2014-08-15 11:29:23 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 7028ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:29:30 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:29:30 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:29:30 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:29:30 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:29:30 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:29:30 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:29:30 +0200
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 127.0.0.1 at 2014-08-15 11:29:55 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 7389ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:30:02 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:02 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:02 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:02 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:02 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:30:02 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:02 +0200
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 127.0.0.1 at 2014-08-15 11:30:16 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 59ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:30:16 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:16 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:30:16 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:16 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:16 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:16 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:16 +0200
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 127.0.0.1 at 2014-08-15 11:30:22 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:22 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:30:22 +0200
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:30:22 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:22 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:22 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:22 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:22 +0200
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 127.0.0.1 at 2014-08-15 11:30:51 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 652ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:51 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:51 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:51 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:51 +0200
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:30:51 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:30:51 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:51 +0200
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 127.0.0.1 at 2014-08-15 11:30:58 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:30:58 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:58 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:58 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:30:58 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:58 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:58 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:30:58 +0200
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 127.0.0.1 at 2014-08-15 11:31:05 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 59ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:31:05 +0200
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:31:05 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:31:05 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:31:05 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:31:05 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:31:05 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:31:05 +0200
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 127.0.0.1 at 2014-08-15 11:31:35 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 665ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:31:36 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:31:36 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:31:36 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:31:36 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:31:36 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:31:36 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:31:36 +0200
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 127.0.0.1 at 2014-08-15 11:31:44 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 11:31:45 +0200
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-08-15 11:31:45 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 11:31:45 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-08-15 11:31:45 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 11:31:45 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 11:31:45 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 11:31:45 +0200
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.3 at 2014-08-15 11:35:04 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 64ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 10.0.1.3 at 2014-08-15 11:35:04 +0200
+
+
+Started GET "/assets/application.css?body=1" for 10.0.1.3 at 2014-08-15 11:35:04 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.1.3 at 2014-08-15 11:35:04 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.1.3 at 2014-08-15 11:35:04 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.1.3 at 2014-08-15 11:35:04 +0200
+
+
+Started GET "/assets/track.js?body=1" for 10.0.1.3 at 2014-08-15 11:35:04 +0200
+
+
+Started GET "/assets/application.js?body=1" for 10.0.1.3 at 2014-08-15 11:35:04 +0200
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:38:15 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 63ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:38:22 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:38:23 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 96ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:38:24 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:38:25 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:38:26 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:38:32 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:38:33 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:38:34 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:38:35 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:38:36 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:38:37 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:38:38 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:38:39 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 65ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:39:05 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 66ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:39:06 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:39:07 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:39:09 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:39:10 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 65ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.2 at 2014-08-15 11:39:11 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:40:48 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 65ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:40:57 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:40:58 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 64ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:40:59 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:41:00 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:41:08 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:41:09 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:41:10 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:47 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:47 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:47 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:47 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:47 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:47 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:48 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:48 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 64ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:48 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:48 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:48 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 69ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:48 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 66ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:48 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 64ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:48 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 89ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:48 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 62ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:48 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:48 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:49 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 66ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:49 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 59ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:49 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:49 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:42:49 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:44:51 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:45:12 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:45:36 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:46:06 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:46:18 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 62ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:47:00 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:47:28 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2HHtWyy5CgaQbC7XSoOb0e" for 10.0.1.2 at 2014-08-15 11:47:51 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2HHtWyy5CgaQbC7XSoOb0e"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:7o2CTH4ctstm8TNelqjb51" for 10.0.1.2 at 2014-08-15 11:49:47 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:7o2CTH4ctstm8TNelqjb51"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:7o2CTH4ctstm8TNelqjb51" for 10.0.1.2 at 2014-08-15 11:50:10 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:7o2CTH4ctstm8TNelqjb51"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:7o2CTH4ctstm8TNelqjb51" for 10.0.1.2 at 2014-08-15 11:50:39 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:7o2CTH4ctstm8TNelqjb51"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:7o2CTH4ctstm8TNelqjb51" for 10.0.1.2 at 2014-08-15 11:51:07 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:7o2CTH4ctstm8TNelqjb51"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:7o2CTH4ctstm8TNelqjb51" for 10.0.1.2 at 2014-08-15 11:52:26 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:7o2CTH4ctstm8TNelqjb51"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:7o2CTH4ctstm8TNelqjb51" for 10.0.1.2 at 2014-08-15 11:53:28 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:7o2CTH4ctstm8TNelqjb51"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:7o2CTH4ctstm8TNelqjb51" for 10.0.1.2 at 2014-08-15 11:54:02 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:7o2CTH4ctstm8TNelqjb51"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 65ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:7o2CTH4ctstm8TNelqjb51" for 10.0.1.2 at 2014-08-15 11:56:17 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:7o2CTH4ctstm8TNelqjb51"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 66ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.1.3 at 2014-08-18 20:16:10 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Library/Ruby/Gems/2.0.0/gems/railties-4.1.4/lib/rails/templates/rails/welcome/index.html.erb (1.3ms)
+Completed 200 OK in 49ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 10.0.1.3 at 2014-08-18 20:16:17 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1228ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.1.3 at 2014-08-18 20:16:18 +0200
+
+
+Started GET "/assets/application.css?body=1" for 10.0.1.3 at 2014-08-18 20:16:18 +0200
+
+
+Started GET "/assets/track.css?body=1" for 10.0.1.3 at 2014-08-18 20:16:18 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.1.3 at 2014-08-18 20:16:18 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.1.3 at 2014-08-18 20:16:18 +0200
+
+
+Started GET "/assets/track.js?body=1" for 10.0.1.3 at 2014-08-18 20:16:18 +0200
+
+
+Started GET "/assets/application.js?body=1" for 10.0.1.3 at 2014-08-18 20:16:18 +0200
+
+
+Started GET "/track/play/spotify:track:68vgtRHr7iZHpzGpon6Jlo" for 10.0.1.2 at 2014-08-18 20:18:17 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:68vgtRHr7iZHpzGpon6Jlo"}
+  Rendered track/play.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 667ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:68vgtRHr7iZHpzGpon6Jlo" for 10.0.1.2 at 2014-08-18 20:18:18 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:68vgtRHr7iZHpzGpon6Jlo"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 93ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:68vgtRHr7iZHpzGpon6Jlo" for 10.0.1.2 at 2014-08-18 20:19:27 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:68vgtRHr7iZHpzGpon6Jlo"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 61ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:68vgtRHr7iZHpzGpon6Jlo" for 10.0.1.2 at 2014-08-18 20:19:30 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:68vgtRHr7iZHpzGpon6Jlo"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:07q6QTQXyPRCf7GbLakRPr" for 10.0.1.2 at 2014-08-18 20:21:53 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:07q6QTQXyPRCf7GbLakRPr"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 64ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:0gQu6cyQCV2aREh2zGrpBZ" for 10.0.1.2 at 2014-08-18 20:22:43 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:0gQu6cyQCV2aREh2zGrpBZ"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:0gQu6cyQCV2aREh2zGrpBZ" for 10.0.1.2 at 2014-08-18 20:22:44 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:0gQu6cyQCV2aREh2zGrpBZ"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 99ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:7mMaJKkvMKUB4KPtWjMQ8D" for 10.0.1.2 at 2014-08-18 20:23:12 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:7mMaJKkvMKUB4KPtWjMQ8D"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:7mMaJKkvMKUB4KPtWjMQ8D" for 10.0.1.2 at 2014-08-18 20:23:12 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:7mMaJKkvMKUB4KPtWjMQ8D"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:6PtXobrqImYfnpIxNsJApa" for 10.0.1.2 at 2014-08-18 20:23:41 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:6PtXobrqImYfnpIxNsJApa"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:6L6ra9mTlyQPmh7zGw58y1" for 10.0.1.2 at 2014-08-18 20:24:41 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:6L6ra9mTlyQPmh7zGw58y1"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 64ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:7AO4vV71sXfclnQsCZiq1q" for 10.0.1.2 at 2014-08-18 20:32:12 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:7AO4vV71sXfclnQsCZiq1q"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 65ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:07q6QTQXyPRCf7GbLakRPr" for 10.0.1.2 at 2014-08-18 20:32:45 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:07q6QTQXyPRCf7GbLakRPr"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:07q6QTQXyPRCf7GbLakRPr" for 10.0.1.2 at 2014-08-18 20:33:18 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:07q6QTQXyPRCf7GbLakRPr"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 63ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:07q6QTQXyPRCf7GbLakRPr" for 10.0.1.2 at 2014-08-18 20:33:24 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:07q6QTQXyPRCf7GbLakRPr"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:07q6QTQXyPRCf7GbLakRPr" for 10.0.1.2 at 2014-08-18 20:33:48 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:07q6QTQXyPRCf7GbLakRPr"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:07q6QTQXyPRCf7GbLakRPr" for 10.0.1.2 at 2014-08-18 20:33:49 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:07q6QTQXyPRCf7GbLakRPr"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 64ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:36lVpg8hgy37iZEazTOJBb" for 10.0.1.2 at 2014-08-18 20:34:31 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:36lVpg8hgy37iZEazTOJBb"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:644es5aYPJghtZLjM1rmSP" for 10.0.1.2 at 2014-08-18 20:36:30 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:644es5aYPJghtZLjM1rmSP"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:644es5aYPJghtZLjM1rmSP" for 10.0.1.2 at 2014-08-18 20:37:33 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:644es5aYPJghtZLjM1rmSP"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:6naxalmIoLFWR0siv8dnQQ" for 10.0.1.2 at 2014-08-18 20:37:57 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:6naxalmIoLFWR0siv8dnQQ"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:3sxn38BaEHUKw6qgLY4k1R" for 10.0.1.6 at 2014-08-19 15:55:50 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:3sxn38BaEHUKw6qgLY4k1R"}
+  Rendered track/play.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 177ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:07q6QTQXyPRCf7GbLakRPr" for 10.0.1.6 at 2014-08-19 15:56:01 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:07q6QTQXyPRCf7GbLakRPr"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2KH16WveTQWT6KOG9Rg6e2" for 10.0.1.6 at 2014-08-19 15:56:16 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2KH16WveTQWT6KOG9Rg6e2"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:3sxn38BaEHUKw6qgLY4k1R" for 10.0.1.6 at 2014-08-19 15:56:38 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:3sxn38BaEHUKw6qgLY4k1R"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:7AO4vV71sXfclnQsCZiq1q" for 10.0.1.6 at 2014-08-19 15:57:32 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:7AO4vV71sXfclnQsCZiq1q"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:7AO4vV71sXfclnQsCZiq1q" for 10.0.1.6 at 2014-08-19 15:59:09 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:7AO4vV71sXfclnQsCZiq1q"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1781ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:7AO4vV71sXfclnQsCZiq1q" for 10.0.1.6 at 2014-08-19 20:54:24 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:7AO4vV71sXfclnQsCZiq1q"}
+  Rendered track/play.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1626ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:7AO4vV71sXfclnQsCZiq1q" for 10.0.1.6 at 2014-08-22 14:31:08 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:7AO4vV71sXfclnQsCZiq1q"}
+  Rendered track/play.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1658ms (Views: 63.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:7AO4vV71sXfclnQsCZiq1q" for 10.0.1.6 at 2014-08-22 14:31:53 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:7AO4vV71sXfclnQsCZiq1q"}
+  Rendered track/play.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1527ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2KH16WveTQWT6KOG9Rg6e2" for 10.0.1.6 at 2014-08-22 14:32:21 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2KH16WveTQWT6KOG9Rg6e2"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1432ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:68vgtRHr7iZHpzGpon6Jlo" for 10.0.1.6 at 2014-08-22 14:33:15 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:68vgtRHr7iZHpzGpon6Jlo"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1204ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:1jdNcAD8Ir58RlsdGjJJdx" for 10.0.1.6 at 2014-08-22 14:33:28 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:1jdNcAD8Ir58RlsdGjJJdx"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1514ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:3J3el7ujZSlcnEzpRbMokZ" for 10.0.1.6 at 2014-08-22 14:34:00 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:3J3el7ujZSlcnEzpRbMokZ"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1443ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:6Sy9BUbgFse0n0LPA5lwy5" for 10.0.1.6 at 2014-08-22 14:34:25 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:6Sy9BUbgFse0n0LPA5lwy5"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1511ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2VSf9lr9W6hd6xGMdyKN8Q" for 10.0.1.6 at 2014-08-22 14:35:48 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:2VSf9lr9W6hd6xGMdyKN8Q"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1294ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:7LVHVU3tWfcxj5aiPFEW4Q" for 10.0.1.6 at 2014-08-22 14:36:16 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:7LVHVU3tWfcxj5aiPFEW4Q"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1214ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:5Af1el8XZK7PyiUOoy23xg" for 10.0.1.6 at 2014-08-22 14:36:51 +0200
+Processing by TrackController#play as */*
+  Parameters: {"id"=>"spotify:track:5Af1el8XZK7PyiUOoy23xg"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1518ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 127.0.0.1 at 2014-09-23 11:53:13 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+Completed 500 Internal Server Error in 16ms
+
+TypeError (no implicit conversion of Regexp into String):
+  app/controllers/track_controller.rb:5:in `+'
+  app/controllers/track_controller.rb:5:in `play'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 127.0.0.1 at 2014-09-23 11:53:34 +0200
+
+SyntaxError (/Users/aLxx/Documents/rails/grandentrance/app/controllers/track_controller.rb:4: syntax error, unexpected '='
+    if (id ~= /spotify:track:[a-zA-Z0-9]*/)
+             ^):
+  app/controllers/track_controller.rb:4: syntax error, unexpected '='
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.3ms)
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 127.0.0.1 at 2014-09-23 11:53:46 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 167ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 11:53:46 +0200
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-09-23 11:53:46 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 11:53:46 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 11:53:46 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 11:53:46 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-09-23 11:53:46 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 11:53:46 +0200
+
+
+Started GET "/track/play/ls" for 127.0.0.1 at 2014-09-23 11:53:57 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"ls"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/track/play/ls" for 127.0.0.1 at 2014-09-23 11:58:08 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"ls"}
+  Rendered track/play.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined local variable or method `error' for #<#<Class:0x007feecb4d4a10>:0x007feecb4dfd98>):
+    1: <p>Start playing track: <%= params[:id] %></p>
+    2: 
+    3: <%= error %>
+    4: 
+    5: <%= params.inspect %>
+  app/views/track/play.html.erb:3:in `_app_views_track_play_html_erb___291476621473520714_70331794912460'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.5ms)
+
+
+Started GET "/track/play/ls" for 127.0.0.1 at 2014-09-23 11:58:18 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"ls"}
+  Rendered track/play.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined local variable or method `error' for #<#<Class:0x007feecb2cdca8>:0x007feecd0dd180>):
+    1: <p>Start playing track: <%= params[:id] %></p>
+    2: 
+    3: <%= error %>
+    4: 
+    5: <%= params.inspect %>
+  app/views/track/play.html.erb:3:in `_app_views_track_play_html_erb___291476621473520714_70331794912460'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.2ms)
+
+
+Started GET "/track/play/ls" for 127.0.0.1 at 2014-09-23 11:58:35 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"ls"}
+  Rendered track/play.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-09-23 11:58:35 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 11:58:35 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 11:58:35 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 11:58:35 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 11:58:35 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 11:58:35 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-09-23 11:58:35 +0200
+
+
+Started GET "/track/play/ls" for 127.0.0.1 at 2014-09-23 11:59:00 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"ls"}
+  Rendered track/play.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 11:59:00 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 11:59:00 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 11:59:00 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 11:59:00 +0200
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-09-23 11:59:00 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-09-23 11:59:00 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 11:59:00 +0200
+
+
+Started GET "/track/play/ls" for 127.0.0.1 at 2014-09-23 11:59:24 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"ls"}
+  Rendered track/play.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-09-23 11:59:24 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 11:59:24 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 11:59:24 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 11:59:24 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 11:59:24 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-09-23 11:59:24 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 11:59:24 +0200
+
+
+Started GET "/track/play/spotify:track:2rjOaGr1mcTYePllS8crRf" for 127.0.0.1 at 2014-09-23 11:59:34 +0200
+Processing by TrackController#play as HTML
+  Parameters: {"id"=>"spotify:track:2rjOaGr1mcTYePllS8crRf"}
+  Rendered track/play.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 64ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/track.css?body=1" for 127.0.0.1 at 2014-09-23 11:59:34 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 11:59:34 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 11:59:34 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 11:59:34 +0200
+
+
+Started GET "/assets/track.js?body=1" for 127.0.0.1 at 2014-09-23 11:59:34 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 11:59:34 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 11:59:34 +0200
